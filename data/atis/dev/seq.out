@@ -1,0 +1,30 @@
+b-contact b-amount b-currency o o
+b-contact b-amount o o
+b-contact b-amount o
+b-amount i-amount b-contact o
+b-amount i-amount b-contact o
+b-contact o b-amount i-amount b-currency o
+b-contact o o b-amount i-amount o
+b-contact o o b-amount i-amount b-currency o
+b-contact b-amount b-currency o o
+b-contact o b-amount b-currency o o
+o o o
+o o o o o
+o o o o
+o o o o o
+o o o o o
+o o o
+o o o o
+o o o o o
+o o o
+ o o o
+b-utilities b-amount b-currency o
+b-utilities i-utilities b-amount b-currency o o
+b-utilities b-amount o o
+b-amount b-utilities o o
+b-amount i-amount b-utilities o o
+b-amount b-utilities i-utilities o
+b-amount i-amount b-utilities o o
+b-utilities b-amount o o o
+b-utilities b-amount o o o
+b-utilities i-utilities b-amount o o

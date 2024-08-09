@@ -1,0 +1,147 @@
+intent,text,iob
+moneyTransfer@CONTACT,onamga 500000 so'm tashlab qo'y,b-contact b-amount b-currency o o
+moneyTransfer@CONTACT,o'glimga 50000 tashlab ber,b-contact b-amount o o
+moneyTransfer@CONTACT,Dostonga 10000 tashla,b-contact b-amount o
+moneyTransfer@CONTACT,20 ming ukamga yubor,b-amount i-amount b-contact o
+moneyTransfer@CONTACT,13 ming singlimga o'tkaz,b-amount i-amount b-contact o
+moneyTransfer@CONTACT,Barchinoyning kartasiga 70 ming so'm yubor,b-contact o b-amount i-amount b-currency o
+moneyTransfer@CONTACT,Sardorning hisob raqamiga 10000 tashlab qo'y,b-contact o o b-amount i-amount o
+moneyTransfer@CONTACT,Nilufarni hisob raqamiga 1 milion so'm yubor,b-contact o o b-amount i-amount b-currency o
+moneyTransfer@CONTACT,Sarvarga 20 dollar tashlab yubor,b-contact b-amount c-currency o o
+moneyTransfer@CONTACT,Umidning kartasiga 10 dollar tashlab qo'y,b-contact o b-amount c-currency o o
+cardBalance@INFO,qancha pulim bor,o o o
+cardBalance@INFO,hisob raqamimda qancha pulim qoldi,o o o o o
+cardBalance@INFO,hisobimda qancha pul qoldi,o o o o
+cardBalance@INFO,hisobimda qancha pulim qolganini bilmoqchiman,o o o o o
+cardBalance@INFO,kartamdagi qoldiq haqida axborot ber,o o o o o
+cardBalance@INFO,kartamdagi qoldiqni ayt,o o o
+cardBalance@INFO,barcha kartalarimdagi qoldiqni bilmoqchiman,o o o o
+cardBalance@INFO,hozirgi hisob raqamimdagi qoldiqni bilmoqchiman,o o o o o
+cardBalance@INFO,qancha pulim qoldi,o o o
+cardBalance@INFO,kartamdagi qoldiqni bilmoqchiman, o o o
+moneyTransfer@UTILITIES,gazga 200000 so'm to'la,b-utilities b-amount b-currency o
+moneyTransfer@UTILITIES,elektr taminotiga 100000 so'm to'lab yubor,b-utilities i-utilities b-amount b-currency o o
+moneyTransfer@UTILITIES,suvga 50000 to'lash kerak,b-utilities b-amount o o
+moneyTransfer@UTILITIES,10000 gazga to'lashing kerak,b-amount b-utilities o o
+moneyTransfer@UTILITIES,25 ming elektrga to'lab qo'y,b-amount i-amount b-utilities o o
+moneyTransfer@UTILITIES,70000 elektr energiyaga o'tqaz,b-amount b-utilities i-utilities o
+moneyTransfer@UTILITIES,50 ming suvga to'lab yubor,b-amount i-amount b-utilities o o
+moneyTransfer@UTILITIES,suvga 150000 to'lab yuborish kerak,b-utilities b-amount o o o
+moneyTransfer@UTILITIES,gazga 200000 so'm to'lash kerak,b-utilities b-amount o o o
+moneyTransfer@UTILITIES,elektr taminotiga 100000 so'm to'la,b-utilities i-utilities b-amount o o
+formFiller@CREDIT,12 oyga 10 millionlik mikroqarz rasmiylashtir,b-time_limits i-time_limits b-amount i-amount b-service o
+formFiller@CREDIT,2 yilga 5 milionlik kredit rasmiylashtir,b-time_limits i-time_limits b-amount i-amount b-service o
+formFiller@CREDIT,men 20 oyga 10000000 so'm mikroqarz olmoqchiman,o b-time_limits i-time_limits b-amount b-currency b-service o
+formFiller@CREDIT,5 yilga  10 million kredit olishim  uchun  hujatni to'ldir,b-time_limits i-time_limits b-amount i-amount b-service o o o o
+formFiller@CREDIT,1 haftaga 700 minglik mikroqarz olmoqchiman,b-time_limits i-time_limits b-amount i-amount b-service o
+formFiller@CREDIT,50000000 kreditni 1 yilga olmoqchiman,b-amount b-service b-time_limits i-time_limits o
+formFiller@CREDIT,3000000 kreditni 5 yilga olishni hohlayman,b-amount b-service b-time_limits i-time_limits o o
+formFiller@CREDIT,men 2000000 kreditni 2 yilga olishni hohlayman,o b-amount b-service b-time_limits i-time_limits o o
+formFiller@CREDIT,men 1 haftaga 700 minglik mikroqarz olmoqchiman,o b-time_limits i-time_limits b-amount i-amount b-service o
+formFiller@CREDIT,men 500000 kreditni 10 yilga olmoqchiman,o b-amount b-service b-time_limits i-time_limits o
+cardOperation@BLOCK,salom dunyo kartasini blokla,b-card i-card o o
+cardOperation@BLOCK,uzcard kartamni bloklamoqchiman,b-card o o
+cardOperation@BLOCK,humo kartamni blokla,b-card o o
+cardOperation@BLOCK,qora kartani blokla ,b-card o o
+cardOperation@BLOCK,mening humo kartamni blokla,o b-card o o
+cardOperation@BLOCK,mendagi humo kartani bloklash kerak,o b-card o o o
+cardOperation@BLOCK,uzcard kartamni blokashim kerak,b-card o o o
+cardOperation@BLOCK,qora kartamni muzlat,b-card o o
+cardOperation@BLOCK,virtual kartamni bloklashim kerak,b-card i-card o o
+cardOperation@BLOCK,humo kartamni muzlatib qo'y,b-card o o o
+cardOperation@DEBT,qanday qarzlarim bor,o o o
+cardOperation@DEBT,menda qarz bormi,o o o
+cardOperation@DEBT,qarzim to'g'risida axborot ber,o o o o
+cardOperation@DEBT,qarzlarim to'g'risida ma'lumot ber,o o o o
+cardOperation@DEBT,qarzim bormi,o o
+cardOperation@DEBT,qarzlarim haqida axborot ber,o o o o
+cardOperation@DEBT,qarzlarim haqida ma'lumot ber,o o o o
+cardOperation@DEBT,qarzdorliklarim bormi,o o
+cardOperation@DEBT,menda qarzdorlik bormi,o o o
+cardOperation@DEBT,mendagi qarzdorliklar to'g'risida bilmoqchiman,o o o o
+bankService@INFO,kredit,b-service
+bankService@INFO,karta haqida bilmoqchiman,b-service o o
+bankService@INFO,kredit haqida,b-service o
+bankService@INFO,kredit haqida ma'lumot ber,b-service o o o
+bankService@INFO,omonat,b-service
+bankService@INFO,mikroqarz,b-service
+bankService@INFO,omonat nima,b-service o
+bankService@INFO,mikroqarz nima ,b-service o
+bankService@INFO,mikroqarz to'g'risida bilishni hohlayman,b-service o o o
+bankService@INFO,omonat haqida bilishni hohlayman,b-service o o o
+bankService@DETAILS,kreditlar bo'yicha qanday foiz stavkalari bor,b-service o o b-detail i-detail o
+bankService@DETAILS,kredit bo'yicha foiz stavka,b-service o b-detail i-detail
+bankService@DETAILS,kreditlar uchun qanday foiz stavkalar mavjud,b-service o o b-detail i-detail o
+bankService@DETAILS,menga kreditlarni foiz stavkalari to'g'risida ma'lumot ber,o b-service b-detail i-detail o o o
+bankService@DETAILS,menga kreditlarni foiz stavkalari to'g'risida axborot ber,o b-service b-detail i-detail o o o
+bankService@DETAILS,mikroqarz,b-service
+bankService@DETAILS,ipoteka,b-service
+bankService@DETAILS,kichik biznes uchun kredit haqida,b-service i-service o o o
+bankService@DETAILS,kichik tadbirkorlik uchun kredit,b-service i-service o o
+bankService@DETAILS,kichik biznes uchun kredit,b-service i-service o o
+cardTransfer@DETAILS,bu oy ichida qancha pul sarfladim,b-requested_month i-requested_month o o o o
+cardTransfer@DETAILS,otgan oyda qancha pul sarfladim ,b-requested_month i-requested_month o o o
+cardTransfer@DETAILS,bu oy sarf harajatlarimni ko'rsat,b-requested_month i-requested_month o o o
+cardTransfer@DETAILS,oylik chiqimlarimni ko'rsat,b-requested_month o o
+cardTransfer@DETAILS,iyul oyidagi chiqimlar,b-requested_month i-requested_month o
+cardTransfer@DETAILS,oylik chiqimlarim to'g'risida bayonot ber,b-requested_month o o o o
+cardTransfer@DETAILS,kelgusi oydagi harajatlarim to'g'risida ma'lumot ber,b-requested_month i-requested_month o o o o
+cardTransfer@DETAILS,bu oydagi sarf harajatlarim to'g'risida ma'lumot ber,b-requested_month i-requested_month o o o o o
+cardTransfer@DETAILS,menga oylik chiqimimni ko'rasat,o b-requested_month o o
+cardTransfer@DETAILS,mening oylik harajatlarimni ko'rsat,o b-requested_month o o
+subscribtion@DETAILS,menda qanday obunalarim bor,o o o o
+subscribtion@DETAILS,mening obunalarim,o o
+subscribtion@DETAILS,mening obunalarimni ko'rsat,o o o
+subscribtion@DETAILS,qanday obunalarim bor,o o o
+subscribtion@DETAILS,hozirda qanday obunalarim bor,o o o o
+subscribtion@DETAILS,qaysi hizmatlarga obunam bor,o o o o
+subscribtion@DETAILS,obunalarim to'g'risida ma'lumot ber,o o o o
+subscribtion@DETAILS,mening obunalarim to'g'risida ma'lumot ber,o o o o o
+subscribtion@DETAILS,ayni paytda qanday obunalarim bor ,o o o o o
+subscribtion@DETAILS,obunalarim,o 
+subscribtion@REMOVE,youtubedagi obunamni bekor qil,b-subscription o o o 
+subscribtion@REMOVE,megogodagi obunamni to'xtat,b-subscription o o
+subscribtion@REMOVE,barcha obunalarimni to'xtat,b-subscription o o
+subscribtion@REMOVE,youtubedagi obunamni bekor qilishni so'rayman,b-subscription o o o o
+subscribtion@REMOVE,YouTube'dagi obunamni to'xtatishni iltimos qilaman,b-subscription o o o o
+subscribtion@REMOVE,YouTube'dagi obunamni to'xtatib qo‘y,b-subscription o o o
+subscribtion@REMOVE,megogodagi obunamni darhol to'xtat,b-subscription o o o
+subscribtion@REMOVE,barcha obunalarimni to'xtatishingni so'rayman,b-subscription o o o
+subscribtion@REMOVE,megogodagi obunamni to'xtatatib qo'y,b-subscription o o o
+subscribtion@REMOVE,barcha obunalarimni to'xtat,b-subscription o o
+cardTransfer@WARNING,bu men,o b-confirmation
+cardTransfer@WARNING,bu menman,o b-confirmation
+cardTransfer@WARNING,ha men,b-confirmation o
+cardTransfer@WARNING,ha menman,b-confirmation o
+cardTransfer@WARNING,bu menmas,o b-confirmation
+cardTransfer@WARNING,bu menmasman,o b-confirmation
+cardTransfer@WARNING,yo'q menmas,b-confirmation o
+cardTransfer@WARNING,yo'q menmasman,b-confirmation o
+cardTransfer@WARNING,bu men emas,o b-confirmation i-confirmation
+cardTransfer@WARNING,bu men emasman,o b-confirmation i-confirmation
+cardTransfer@WARNING,yo'q men emas,b-confirmation o o
+cardTransfer@WARNING,yo'q men emasman,b-confirmation o
+formFiller@GOAL,dam olishga borishim uchun qancha pul yig'ishim kerak,b-accumulation_goal i-accumulation_goal o o o o o o
+formFiller@GOAL,yangi uyga qancha pul yig'ishim kerak,b-accumulation_goal i-accumulation_goal o o o o
+formFiller@GOAL,avtomobil sotib olishim uchun qancha pul yig'ishim zarur,b-accumulation_goal o o o o o o o
+formFiller@GOAL,dam olishga borishim uchun pul yig'ish maqsadini yarat,b-accumulation_goal i-accumulation_goal o o o o o o
+formFiller@GOAL,yangi avtomobilga pul yig'ishim uchun maqsad yarat,b-accumulation_goal i-accumulation_goal o o o o o
+formFiller@GOAL,telefon olish uchun pul yig'ishim kerak,b-accumulation_goal o o o o o
+formFiller@GOAL,kompyuter olishim uchun pul yig'ish,b-accumulation_goal o o o o
+formFiller@GOAL,quloqchin sotib olishim uchun pul yig'ish zarurati bor,b-accumulation_goal o o o o o o o
+formFiller@GOAL,uy sotib olish uchun pul yig'moqchiman,b-accumulation_goal o o o o o
+formFiller@GOAL,dam olishga ketishim uchun qanch miqdorda pul yig'ishim zarur,b-accumulation_goal i-accumulation_goal o o o o o o o
+formFiller@savings,Ispaniyaga ikki oyga ketmoqchiman,b-country b-time_limits i-time_limits o
+formFiller@savings,Germaniyaga 1 oyga ketishni hohlayman,b-country b-time_limits i-time_limits o o
+formFiller@savings,Men Yaponiyaga 5 oyga ketmoqchiman,o b-country b-time_limits i-time_limits o
+formFiller@savings,men Maldiva orollariga 1 oyga bormoqchiman,o b-country i-country b-time_limits i-time_limits o
+formFiller@savings,men 2 yil ichida 200 mln so'm yig'moqchiman,o b-time_limits i-time_limits o b-amount i-amount b-currency o
+formFiller@savings,men 2 yilda 200 mln so'm yig'moqchiman,o b-time_limits i-time_limits b-amount i-amount b-currency o
+formFiller@savings,Men ikki yil davomida 200 million so'm to'plashni istayman,o b-time_limits i-time_limits o b-amount i-amount b-currency o o
+formFiller@savings,Men ikki yil mobaynida 200 million so'm yig'ishni rejalashtirganman,o b-time_limits i-time_limits o b-amount i-amount b-currency o o
+formFiller@savings,Men 2 yilda 200 million so'm yig'moqchi bo'ldim,o b-time_limits i-time_limits b-amount i-amount b-currency o o
+formFiller@savings,Men ikki yil ichida 200 million so'm to'plashni rejalashtirmoqchiman,o b-time_limits i-time_limits o b-amount i-amount b-currency o o
+expenseLimit@CONFIRM,ha qayta ko'rib chiq,b-confirmation o o o
+expenseLimit@CONFIRM,yo'q ko'rib chiqish kerak emas,b-confirmation o o o o
+expenseLimit@CONFIRM,ha,b-confirmation
+expenseLimit@CONFIRM,yo'q,b-confirmation

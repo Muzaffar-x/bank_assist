@@ -1,0 +1,16 @@
+UNK
+bankService@DETAILS
+bankService@INFO
+cardBalance@INFO
+cardOperation@BLOCK
+cardOperation@DEBT
+cardTransfer@DETAILS
+cardTransfer@WARNING
+expenseLimit@CONFIRM
+formFiller@CREDIT
+formFiller@GOAL
+formFiller@savings
+moneyTransfer@CONTACT
+moneyTransfer@UTILITIES
+subscribtion@DETAILS
+subscribtion@REMOVE
